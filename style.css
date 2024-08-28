@@ -1,0 +1,275 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+header {
+    background-color: black;
+    color: darkturquoise;
+    height: 8vh;
+    width: 100vw;
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    background-color: aliceblue;
+    width: 3.5vw;
+    height: 6vh;
+    border-radius: 30px;
+}
+
+li {
+    display: inline;
+    margin: 10px 58px;
+}
+
+ul {
+    padding: 0px 10px;
+}
+
+button {
+    float: right;
+    padding: 3px 18px;
+    margin: 9px 0px;
+    border-radius: 10px;
+    position: relative;
+    top: -35px;
+}
+
+button:hover {
+    color: darkslategray;
+    background-color: red;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover {
+    color: red;
+}
+
+.search {
+    padding: 0px 84px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    height: 5vh;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pic2 {
+
+    border-radius: 120px;
+    padding: 22px 24px;
+    overflow: hidden;
+    width: 12vw;
+
+}
+
+.pic2:hover {
+    width: 12.5vw;
+}
+
+
+.h1:hover {
+    color: red;
+    font-size: 50px;
+}
+
+.h1 {
+    color: black;
+    font-size: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    position: relative;
+    bottom: 34px;
+    right: 30px;
+}
+
+.bagzz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote1 {
+    position: relative;
+    bottom: 25px;
+    font-size: large;
+    font-weight: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-variant: inherit;
+}
+
+.quote1:hover {
+    color: lightpink;
+    font-size: 20px;
+}
+
+.hr {
+    border: 2px solid rgb(183, 223, 177);
+}
+
+.types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.types1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-variant: normal;
+    text-transform: capitalize;
+    padding: 0px 0px 10px 0px;
+
+}
+
+.search-logo {
+    width: 2.3vw;
+    height: 3.3vh;
+    border-radius: 10px;
+    position: relative;
+    right: 11.5vw;
+    top: 0.5px;
+}
+
+.images {
+    border-radius: 15px;
+    width: 16vw;
+    height: 53vh;
+
+}
+
+.school {
+    width: 15vw;
+    height: 20vw;
+    border-radius: 10px;
+}
+
+.main {
+    display: inline-flex;
+    margin: 10px 39px;
+    border-radius: 10px;
+    display: inline-flex;
+
+}
+
+.main1 {
+    background-color: #b0db84;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 80vw;
+    padding: 0vw 5vw;
+    margin: auto;
+    display: flex;
+
+
+
+}
+
+p {
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+.para {
+    background-color: black;
+    border-radius: 10px;
+    width: 15vw;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.school:hover {
+    width: 16vw;
+    height: 21vw;
+
+}
+
+footer {
+    background-color: black;
+    color: aqua;
+    width: 100vw;
+    height: 30vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img1 {
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+.footer-para{
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    font-weight: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 100px; */
+}
+
+.whatsapp {
+
+    overflow: hidden;
+    border-radius: 112px;
+    height: 30px;
+
+}
+.insta{
+    overflow: hidden;
+    border-radius: 112px;
+    height: 30px;
+    padding: 10px 12px;
+}
+.twitt{
+    overflow: hidden;
+    border-radius: 112px;
+    height: 30px;
+    padding: 9px 8px;
+}
+.face{
+    overflow: hidden;
+    border-radius: 112px;
+    height: 30px;
+    padding: 9px 8px;
+}
+    

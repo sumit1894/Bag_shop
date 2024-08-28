@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body {
+        background-color: lightskyblue;
+    }
+    h2{
+        padding: 100px 100px 20px 100px;
+        font-size: 50px;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    button{
+        width: 6vw;
+        height: 4vh;
+        border-radius: 50px;
+        /* padding: 0px 50px; */
+        
+    }
+    button:hover{
+        background-color: red;
+        color: black;
+        text-decoration: dotted;
+        width: 6vw;
+        height: 4vh;
+        border-radius: 50px;
+    }
+    input:hover{
+        background-color: lightgreen;
+        color: black;
+    }
+    input{
+        border-radius: 40px;
+        background-color: rgb(137, 190, 244);
+    }
+    .lofi{
+        border-radius: 150px;
+        width: 6vw;
+        
+    }
+    
+    
+</style>
+
+<body><div class="table">
+   <center> 
+       <h2>login form</h2>
+       <div class="logo">
+        <a href="/index.html"><img class="lofi"
+            src="data:image/jpeg;base64,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"></a>
+    </div> <br>
+    <label for="unname"><b>username</b></label>
+    <input type="text" placeholder="enter username"> <br><br>
+    <label for="passward"><b>passward</b></label>
+    <input type="passward" placeholder="enter passward"><br><br>
+    <a href="/login.html"><button>login</button></a>
+    <a href="/sign.in.html"> <button>sign-in</button></a>
+</div>
+</center>
+
+</body>
+
+</html>
